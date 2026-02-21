@@ -1,7 +1,7 @@
 name: modifx
 description: "Compose-style modifiers for Flutter - Say goodbye to widget nesting hell"
-version: 0.1.0
-homepage: https://github.com/flutter-gg/modifx
+version: 0.1.1
+homepage: https://github.com/fajarxfce/modifx
 
 environment:
   sdk: ^3.11.0

@@ -294,9 +294,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Links
 
 - [Pub.dev](https://pub.dev/packages/modifx)
-- [GitHub](https://github.com/flutter-gg/modifx)
-- [Documentation](https://github.com/flutter-gg/modifx#readme)
-- [Issue Tracker](https://github.com/flutter-gg/modifx/issues)
+- [GitHub](https://github.com/fajarxfce/modifx)
+- [Documentation](https://github.com/fajarxfce/modifx#readme)
+- [Issue Tracker](https://github.com/fajarxfce/modifx/issues)
 
 ---
 
