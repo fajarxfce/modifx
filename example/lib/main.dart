@@ -42,7 +42,7 @@ class _ModifxDemoPageState extends State<ModifxDemoPage> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             // Section: Simple Button
-            _buildSection(
+            buildSection(
               'Simple Button',
               const Text('Click Me')
                   .paddingAll(16)
@@ -53,7 +53,7 @@ class _ModifxDemoPageState extends State<ModifxDemoPage> {
             ),
 
             // Section: Card with Shadow
-            _buildSection(
+            buildSection(
               'Card with Shadow',
               Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -79,7 +79,7 @@ class _ModifxDemoPageState extends State<ModifxDemoPage> {
             ),
 
             // Section: Conditional Visibility
-            _buildSection(
+            buildSection(
               'Conditional Visibility',
               Column(
                 children: [
@@ -98,7 +98,7 @@ class _ModifxDemoPageState extends State<ModifxDemoPage> {
             ),
 
             // Section: Complex Composition
-            _buildSection(
+            buildSection(
               'Complex Composition',
               Row(
                     children: [
@@ -125,7 +125,7 @@ class _ModifxDemoPageState extends State<ModifxDemoPage> {
             ),
 
             // Section: Transformations
-            _buildSection(
+            buildSection(
               'Transformations',
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -150,7 +150,7 @@ class _ModifxDemoPageState extends State<ModifxDemoPage> {
             ),
 
             // Section: Multiple Shadows
-            _buildSection(
+            buildSection(
               'Gradient-like Multiple Shadows',
               const Text('Elevated Box')
                   .paddingAll(24)
@@ -170,7 +170,7 @@ class _ModifxDemoPageState extends State<ModifxDemoPage> {
             ),
 
             // Section: Opacity
-            _buildSection(
+            buildSection(
               'Opacity',
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -200,7 +200,7 @@ class _ModifxDemoPageState extends State<ModifxDemoPage> {
             ),
 
             // Section: Gesture Events
-            _buildSection(
+            buildSection(
               'Gesture Events',
               Column(
                 children: [
@@ -227,7 +227,7 @@ class _ModifxDemoPageState extends State<ModifxDemoPage> {
             ),
 
             // Section: Traditional vs modifx Comparison
-            _buildSection(
+            buildSection(
               'Traditional vs modifx',
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -268,7 +268,7 @@ class _ModifxDemoPageState extends State<ModifxDemoPage> {
     );
   }
 
-  Widget _buildSection(String title, Widget content) {
+  Widget buildSection(String title, Widget content) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
